@@ -23,14 +23,14 @@ bool excutableCheck(const string &excutableFileName,
 
 int main(int argc, char *argv[]) {
   if (argv[1] == nullptr) {
-    cout << "Deo co file sao ma compile ba! Ngu nhu con bo`";
+    cout << "Add file to compile BITCH!!";
     return 0;
   }
   string fileNameWithExcutable = argv[1];
   string compileScript = "g++ -std=c++14 -g ";
   string fileName = removeExcutable(fileNameWithExcutable);
   if (excutableCheck(fileNameWithExcutable, fileName)) {
-    cout << "add excutable bitch!!!!!!!!!";
+    cout << "Add excutable BITCH!!!!!!!!!";
     return 0;
   }
   compileScript += fileNameWithExcutable + " -o " + fileName;
