@@ -33,6 +33,7 @@ int main(int argc, char *argv[]) {
     cout << "Add excutable BITCH!!!!!!!!!";
     return 0;
   }
+  cout << " hehehe";
   compileScript += fileNameWithExcutable + " -o " + fileName;
   const char *compileCommand = compileScript.c_str();
   fileName = "./" + fileName;
